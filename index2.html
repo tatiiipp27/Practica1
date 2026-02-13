@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer página web responsive</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+        header,nav,main, footer{
+            padding: 15px;
+        }
+        header{
+            background: #333;
+            color: white;
+        }
+        nav{ 
+            background-color: #eee;
+            text-align: center;
+
+        }
+        footer{
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .contenedor{
+            display: flex;
+            gap: 15px;
+            padding: 15px;
+            
+        }
+        .col{
+            background: #f6f6f6;
+            padding: 15px;
+            flex: 1;
+            box-shadow: 0px 4px 10px black;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        @media (max-width: 700px) {
+            .contenedor {
+                flex-direction: column;
+            }
+        }
+        nav a{
+            margin-right: 10px;
+            text-decoration: none;
+            color:#333;
+        }
+        nav a:hover{
+        text-decoration: underline;
+        background-color: rgb(126, 125, 138);
+    }
+    col img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+        
+
+
+    </style>
+</head>
+<body>
+
+    
+
+    <header>
+        <h1> Mi web responsive (Xavier Villalta) </h1>
+        <p>Ejemplo simple para entender responsive</p>
+     </header>
+
+     <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+     </nav>
+
+     <main>
+        <div class="contenedor">
+            <section class="col">
+                <h2>Sección 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum soluta, consequuntur minima molestiae obcaecati nulla architecto, eius officia quisquam mollitia. Sed fugit obcaecati exercitationem voluptas sit aliquid iste dolore?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore maxime voluptates inventore voluptatem recusandae! Rem atque, voluptatem saepe optio mollitia molestias nam laudantium dolorum nulla reprehenderit, veniam quos repellendus.</p>
+                <img src="https://tse1.mm.bing.net/th/id/OIP.m_Y1z6HAN26EqfOrN_zrPAHaEx?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+            </section>
+
+        <section class="col">
+            <h2> Sección 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla voluptas molestiae commodi eum autem odit eligendi impedit error accusantium. Ex voluptate porro dolorum odit illo distinctio. Quidem, qui numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellat ad exercitationem earum at numquam nesciunt excepturi assumenda tempora laboriosam expedita quod quia, ullam sint. Nemo similique nesciunt illum error.</p>
+            <img src="https://tse1.mm.bing.net/th/id/OIP.m_Y1z6HAN26EqfOrN_zrPAHaEx?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+
+         </section>
+
+         <section class="col">
+
+            <h2> Sección 3</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla voluptas molestiae commodi eum autem odit eligendi impedit error accusantium. Ex voluptate porro dolorum odit illo distinctio. Quidem, qui numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellat ad exercitationem earum at numquam nesciunt excepturi assumenda tempora laboriosam expedita quod quia, ullam sint. Nemo similique nesciunt illum error.</p>
+
+
+         </section>
+          <section class="col">
+            
+            <h2> Sección 4</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla voluptas molestiae commodi eum autem odit eligendi impedit error accusantium. Ex voluptate porro dolorum odit illo distinctio. Quidem, qui numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellat ad exercitationem earum at numquam nesciunt excepturi assumenda tempora laboriosam expedita quod quia, ullam sint. Nemo similique nesciunt illum error.</p>
+
+
+         </section>
+
+             <section class="col">
+            
+            <h2> Sección 5</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla voluptas molestiae commodi eum autem odit eligendi impedit error accusantium. Ex voluptate porro dolorum odit illo distinctio. Quidem, qui numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellat ad exercitationem earum at numquam nesciunt excepturi assumenda tempora laboriosam expedita quod quia, ullam sint. Nemo similique nesciunt illum error.</p>
+
+
+         </section>
+
+             <section class="col">
+            
+            <h2> Sección 6</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla voluptas molestiae commodi eum autem odit eligendi impedit error accusantium. Ex voluptate porro dolorum odit illo distinctio. Quidem, qui numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellat ad exercitationem earum at numquam nesciunt excepturi assumenda tempora laboriosam expedita quod quia, ullam sint. Nemo similique nesciunt illum error.</p>
+
+
+         </section>
+             <section class="col">
+            
+            <h2> Sección 7</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla voluptas molestiae commodi eum autem odit eligendi impedit error accusantium. Ex voluptate porro dolorum odit illo distinctio. Quidem, qui numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellat ad exercitationem earum at numquam nesciunt excepturi assumenda tempora laboriosam expedita quod quia, ullam sint. Nemo similique nesciunt illum error.</p>
+
+
+         </section>
+             <section class="col">
+            
+            <h2> Sección 8</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nulla voluptas molestiae commodi eum autem odit eligendi impedit error accusantium. Ex voluptate porro dolorum odit illo distinctio. Quidem, qui numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellat ad exercitationem earum at numquam nesciunt excepturi assumenda tempora laboriosam expedita quod quia, ullam sint. Nemo similique nesciunt illum error.</p>
+
+
+         </section>
+
+         
+
+        </div>
+    </main>
+    <footer>
+
+    <p>2026- Ejemplo sencillo</p>
+    </footer>
+    
+</body>
+</html>

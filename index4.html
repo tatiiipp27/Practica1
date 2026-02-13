@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tercer página web responsive</title>
+</head>
+<body>
+    <style>
+         body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+
+        }
+        header,nav,main,footer{
+            padding:15px;
+        }
+        header{
+            background: #1f2937;
+            color: white;
+        }
+        nav{
+            background: #f3f4f6;
+        }
+        footer{
+            background: #1f2937;
+            color: white;
+            text-align: center;
+        }
+        .wrap{
+            max-width: 900px;
+            margin: auto;
+            
+        }
+        nav a{
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 8px 10px;
+            background: white;
+            border: 1px solid #ddd;
+            text-decoration: none;
+            color: #111;
+        }
+        .caja{
+            background: #FAFAFA;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        main div{
+            display: flex;
+        }
+        img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 400px;
+    height: 400px;
+        }
+
+
+    </style>
+    <header>
+        <div class="wrap">
+            <h1>Mi web responsive - Xavier Villlata</h1>
+            <p>Esto funciona en movil sin casi usar media queries</p>
+
+        </div>
+    </header>
+
+    <nav>
+        <div class="wrap">
+            <a href="#"> Inicio</a>
+            <a href="#"> Productos</a>
+            <a href="#"> Galeria</a>
+            <a href="#"> Contacto</a>
+
+        </div>
+    </nav>
+
+    <main>
+        <div class="wrap">
+            <section class="caja">
+                <h2>seccion A </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat voluptate, sequi atque excepturi nostrum ipsum modi minima molestias expedita incidunt laudantium ratione nam dolorum delectus ad sed iusto ex?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati voluptas expedita quam voluptate temporibus, sed, quaerat facere numquam quia natus qui minima rerum? Illum repellendus error ea repellat culpa?</p>
+                <img src="https://th.bing.com/th/id/OIP.QMZDlYTFEj0F0GovF-KBTAHaEo?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+
+            </section>
+
+            <section class="caja">
+                <h2>seccion B</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat voluptate, sequi atque excepturi nostrum ipsum modi minima molestias expedita incidunt laudantium ratione nam dolorum delectus ad sed iusto ex?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati voluptas expedita quam voluptate temporibus, sed, quaerat facere numquam quia natus qui minima rerum? Illum repellendus error ea repellat culpa?</p>
+                <img src="https://tse3.mm.bing.net/th/id/OIP.WDORjHSu10Er6jYgvj84-wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <p> 2026 - Ejemplo basico responsive</p>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
